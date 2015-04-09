@@ -49,6 +49,7 @@ public class QuizActivity extends ActionBarActivity {
 
 
 
+
     }
 
     @Override
@@ -64,12 +65,18 @@ public class QuizActivity extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        switch (id){
+            case R.id.menuExit:
+                finish();
+                return true;
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+            case R.id.menuStart:
+                //
+                return true;
+
+            default:
+                return false;
         }
 
-        return super.onOptionsItemSelected(item);
     }
 }
