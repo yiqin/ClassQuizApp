@@ -11,7 +11,8 @@ import android.widget.Button;
 
 public class QuizActivity extends ActionBarActivity {
 
-    private Button mExitButton, mStartButton;
+    // TODO
+    private Button mExitButton, m;
 
 
 
@@ -19,7 +20,6 @@ public class QuizActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
-
 
         //exit button
         mExitButton = (Button) findViewById(R.id.exitButton);
@@ -32,17 +32,6 @@ public class QuizActivity extends ActionBarActivity {
 
             }
         });
-
-        //start button
-        mStartButton = (Button) findViewById(R.id.startButton);
-        mStartButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                view.setBackgroundColor(Color.BLUE);
-                startMe();
-            }
-        });
-
     }
 
     private void startMe() {
