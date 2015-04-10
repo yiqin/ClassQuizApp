@@ -32,6 +32,10 @@ public class QuizActivity extends ActionBarActivity {
 
             }
         });
+
+
+
+
     }
 
     private void startMe() {

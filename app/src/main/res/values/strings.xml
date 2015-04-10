@@ -6,7 +6,7 @@
     <string name="appName">CapitalQuiz</string>
     <string name="yourName">Your Name:\ </string>
     <string name="enterName">enter your name....</string>
-    <string name="welcome">Welcome to Capital Quiz</string>
+    <string name="welcome">Welcome to Classics Quiz</string>
     <string name="startQuiz">Start Quiz</string>
     <string name="exit">Exit</string>
     <string name="questionNumberText">Question %d:</string>

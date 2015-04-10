@@ -5,13 +5,26 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <!-- Create a sytle here, and link it to activity_quiz.xml     . -->
+    <!-- Create a sytle here, and link it to activity_quiz.xml
+
     <style name="textView_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
 
+    -->
 
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+                Theme customizations available in newer API levels can go in
+                res/values-vXX/styles.xml, while customizations related to
+                backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="text_style">
+        <item name="android:textColor">#FFF</item>
+    </style>
 
     <style name="button_style">
         <item name="android:layout_height">wrap_content</item>
@@ -20,6 +33,5 @@
         <item name="android:layout_margin">8dp</item>
         <item name="android:background">#DDD</item>
     </style>
-
 
 </resources>
