@@ -1,0 +1,25 @@
+    <string-array
+            name="word_classics">
+
+        <item>aedificium|building|LAT</item>
+        <item>alacer|quick|LAT</item>
+        <item>dulcis|sweet|LAT</item>
+        <item>tardus|slow|LAT</item>
+        <item>pello|push|LAT</item>
+        <item>pendeo|hanging|LAT</item>
+        <item>sum|be|LAT</item>
+        <item>civis|citizen|LAT</item>
+        <item>dignus|worthy|LAT</item>
+        <item>equus|horse|LAT</item>
+
+        <item>ankura|anchor|GRK</item>
+        <item>agora|marketplace|GRK</item>
+        <item>allotropos|strange|GRK</item>
+        <item>amblus|dim|GRK</item>
+        <item>bios|life|GRK</item>
+        <item>boreas|north|GRK</item>
+        <item>bradus|slow|GRK</item>
+        <item>thermos|hot|GRK</item>
+        <item>hippos|horse|GRK</item>
+
+    </string-array>
