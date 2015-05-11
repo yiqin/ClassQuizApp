@@ -1,5 +1,5 @@
 #Class Quiz App
-####An Android app about to do list. You can add, edit and delete a list.
+####An Androind mobile app about the class quiz.
 
 Instructions for proClassicsQuiz
 
